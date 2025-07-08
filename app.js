@@ -13,6 +13,9 @@ const firebaseConfig = {
     measurementId: "G-RZKYKMSW6B"
 };
 
+
+
+
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
 const auth = getAuth(app);
@@ -58,3 +61,5 @@ form.addEventListener("submit", async (e) => {
         console.error("Error adding document: ", error);
     }
 })
+
+
